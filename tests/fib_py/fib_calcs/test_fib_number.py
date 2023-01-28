@@ -1,5 +1,5 @@
 from unittest import main, TestCase
-from fib_py.fib_calcs.fib_number import recurring_fibonacci_number
+from fib_py_example.fib_calcs.fib_number import recurring_fibonacci_number
 
 class RecurringFibNumberTest(TestCase):
     def test_zero(self):

@@ -1,6 +1,6 @@
 from unittest import main, TestCase
 from unittest.mock import patch
-from fib_py.fib_calcs.fib_numbers import calculate_numbers
+from fib_py_example.fib_calcs.fib_numbers import calculate_numbers
 
 class Test(TestCase):
 
