@@ -1,10 +1,10 @@
 name: Run tests
-on: 
-  push:
-    jobs:
-      run-shell-command:
-        runs-on: ubuntu-latest
-        steps:
-          - uses: actions/checkout@v2
-        - name: run tests
-          run: python -m unitest discover ./tests
+on: push
+
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: run tests
+        run: python -m unittest discover
